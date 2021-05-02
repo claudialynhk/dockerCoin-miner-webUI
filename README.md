@@ -275,6 +275,10 @@ Now you can see the hpa running correctly.
 $ kubectl get hpa
 ```
 
+>Screenshot after setting up HPA
+>![image](https://user-images.githubusercontent.com/55192606/116819014-c9947980-aba0-11eb-9a65-a24a7ca5554a.png)
+
+
 > Open question: Apart from the autoscaling policy we provided, think about how to reduce the fluctuation of the HPA (e.g. using two HPAs simultaneously to scale the pods)? Explain your method in details and show how you setup your own HPA.
 >
 > Answer: &lt;Your answer goes here&gt;.
