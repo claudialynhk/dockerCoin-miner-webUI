@@ -1,12 +1,12 @@
 kind: HorizontalPodAutoscaler
 apiVersion: autoscaling/v2beta2
 metadata:
-  name: http://172.31.59.12:31543 # optional: rng, hasher
+  name: rng # optional: rng, hasher
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: http://172.31.59.12:31543 # optional: rng, hasher
+    name: rng # optional: rng, hasher
   minReplicas: 1
   maxReplicas: 20
   behavior:
