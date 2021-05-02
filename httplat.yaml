@@ -24,5 +24,5 @@ spec:
         image: jpetazzo/httplat
         imagePullPolicy: IfNotPresent
         command: [ "httplat" ]
-        args: ["http://172.31.59.12:31543"] # optional: rng, hasher
+        args: ["http://rng"] # optional: rng, hasher
         
