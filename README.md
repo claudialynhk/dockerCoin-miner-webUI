@@ -159,11 +159,12 @@ $ httping <minikube-address>:<rng-np-port>
 
 | Service      | Hasher | Rng  |
 | ------------ | ------ | ---- |
-| Latency (ms) |        |      |
+| Latency (ms) |    1ms |725.8ms|
 
 > Question: Which service is the bottleneck? 
->
+> 
 > Answer: &lt;You answer goes here&gt;.
+> Rng is the bottleneck as the latency is signlifcantly bigger than haser.
 
 ## HPA
 
