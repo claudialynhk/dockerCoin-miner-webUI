@@ -1,12 +1,12 @@
 kind: HorizontalPodAutoscaler
 apiVersion: autoscaling/v2beta2
 metadata:
-  name:rng-np
+  name:rng
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name:rng-np
+    name:rng
   minReplicas: 1
   maxReplicas: 20
   behavior:
