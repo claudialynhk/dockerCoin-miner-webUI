@@ -128,7 +128,7 @@ $ kubectl scale deployment worker --replicas=3
 > Question:  What is the speedup bump when you have 10x workers?
 >
 > Answer: &lt;You answer goes here&gt;.
-> The speedup bump is 10hashes/s , which is 2.5 times compared to when # of worker = 1. However, the max number of hashes/s happen when worker = 3,4. Increasing # of workers does not necessary increase the # of hases/s after reaching the peak performance.
+> The max speed was 13.9, speedup bump is 10hashes/s , which is 2.5 times compared to when # of worker = 1. However, the max number of hashes/s happen when worker = 3,4. Increasing # of workers does not necessary increase the # of hases/s after reaching the peak performance.
 
 ### Rng / Hasher
 
