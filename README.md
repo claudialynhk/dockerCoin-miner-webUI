@@ -281,7 +281,9 @@ $ kubectl get hpa
 
 > Open question: Apart from the autoscaling policy we provided, think about how to reduce the fluctuation of the HPA (e.g. using two HPAs simultaneously to scale the pods)? Explain your method in details and show how you setup your own HPA.
 >
-> Answer: &lt;Your answer goes here&gt;.
+> Answer: stabilization flag defaults to 5 minutes,which means that scaledowns will occur gradually. We can change the parameter of the flag to reduce fluctuation further.
+
+
 
 ## Grading
 
